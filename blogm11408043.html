@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科羅拉多州「四大奇蹟」國家公園全攻略</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        emerald: {
+                            950: '#022c22',
+                        },
+                        slate: {
+                            850: '#1e293b',
+                        },
+                        accent: '#fbbf24',
+                    },
+                    fontFamily: {
+                        sans: ['Noto Sans TC', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #fbbf24, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-gradient {
+            background: linear-gradient(180deg, rgba(15, 23, 42, 0) 0%, rgba(15, 23, 42, 0.9) 100%);
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <header class="relative h-[90vh] w-full overflow-hidden flex items-center justify-center">
+        <div class="absolute inset-0 z-0 image-container">
+            <img src='https://opal.google/board/blobs/c3804dae-0907-468b-a745-82cee5a7f499' alt='Colorado National Parks Landscape' class="w-full h-full object-cover">
+            <div class="absolute inset-0 hero-gradient"></div>
+        </div>
+        
+        <div class="relative z-10 container mx-auto px-6 text-center animate-fade-in-up">
+            <div class="inline-block px-4 py-1 mb-6 text-sm font-semibold tracking-wider text-accent uppercase border border-accent/30 rounded-full bg-accent/10">
+                學號：M11408043 | 深度探索
+            </div>
+            <h1 class="font-display text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                【部落格全攻略】<br>
+                <span class="text-gradient">科羅拉多州「四大奇蹟」</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 leading-relaxed font-light">
+                從雲端高峰到地底峽谷的奇幻旅程，一場關於大自然與人類文明的時光對話。
+            </p>
+            <div class="mt-10 animate-float">
+                <a href="#content" class="text-slate-400 hover:text-white transition-colors">
+                    <svg class="w-10 h-10 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="content" class="container mx-auto px-6 py-20 relative">
+        
+        <!-- Intro Section (Bento Style) -->
+        <section class="mb-32">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="md:col-span-8 glass-card p-8 md:p-12 flex flex-col justify-center">
+                    <h2 class="text-3xl font-bold mb-6 flex items-center">
+                        <span class="w-8 h-1 bg-accent mr-4"></span>
+                        為什麼科羅拉多是聖地？
+                    </h2>
+                    <div class="space-y-4 text-slate-300 text-lg leading-relaxed">
+                        <p>如果你問一個旅行者，哪一個州最能代表美國荒野的多樣性？答案往往不是擁有峽谷壯麗的亞利桑那，也不是坐擁地熱奇觀的懷俄明，而是科羅拉多。</p>
+                        <p>在這裡，大自然的調色盤顯得格外任性：你可能清晨還在海拔四千公尺的雪山脊線上感受寒風，午後就踏入了北美的「撒哈拉沙漠」。</p>
+                    </div>
+                </div>
+                <div class="md:col-span-4 glass-card p-8 bg-accent/5 border-accent/20 flex flex-col justify-center">
+                    <p class="italic text-accent text-xl leading-relaxed">
+                        「這不是枯燥的百科，而是一場帶著好奇心出發的知識對話。」
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Park 1: Rocky Mountain -->
+        <section class="mb-40">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="w-full md:w-1/2 order-2 md:order-1">
+                    <div class="flex items-center space-x-2 text-accent mb-4 uppercase tracking-widest font-bold text-sm">
+                        <span>No. 01</span>
+                        <span class="w-10 h-[1px] bg-accent/50"></span>
+                        <span>High Altitude</span>
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-8 font-display">落磯山國家公園 <br><span class="text-slate-400 text-2xl font-normal block mt-2">Rocky Mountain: 雲端上的顏值擔當</span></h2>
+                    
+                    <div class="space-y-8">
+                        <div class="group">
+                            <h4 class="text-accent font-bold text-lg mb-2 flex items-center">
+                                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                                第一眼印象
+                            </h4>
+                            <p class="text-slate-400 pl-7 border-l border-slate-700 group-hover:border-accent transition-colors duration-300">
+                                海拔突破三千公尺的高海拔凍原，彷彿「在雲端飛行」，你可以俯瞰被冰河啃噬過的湖泊，與巨大的馬鹿（Elk）明星四目相對。
+                            </p>
+                        </div>
+                        <div class="group">
+                            <h4 class="text-accent font-bold text-lg mb-2 flex items-center">
+                                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                                時光隧道
+                            </h4>
+                            <p class="text-slate-400 pl-7 border-l border-slate-700 group-hover:border-accent transition-colors duration-300">
+                                1915 年誕生，歸功於「落磯山國家公園之父」Enos Mills，他讓這片「山中圣殿」免於被過度開發。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 order-1 md:order-2 glass-card aspect-video overflow-hidden group">
+                    <img src="https://opal.google/board/blobs/c3804dae-0907-468b-a745-82cee5a7f499" alt="Rocky Mountains" class="w-full h-full object-cover grayscale-[0.5] group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100">
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+                <div class="p-8 bg-red-500/5 border border-red-500/20 rounded-3xl">
+                    <h5 class="text-red-400 font-bold mb-3 flex items-center">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        有一點小尷尬
+                    </h5>
+                    <p class="text-slate-400 text-sm leading-relaxed">預約制之亂與「網美行為」。不少旅客為了與野生動物「貼貼」自拍而無視安全距離，人獸衝突已成為難解的尷尬。</p>
+                </div>
+                <div class="p-8 bg-emerald-500/5 border border-emerald-500/20 rounded-3xl">
+                    <h5 class="text-emerald-400 font-bold mb-3 flex items-center">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                        未來的它
+                    </h5>
+                    <p class="text-slate-400 text-sm leading-relaxed">松木蟲害威脅。園方正研議更長期的接駁系統，試圖在觀光與永續之間調製出平衡。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Park 2: Mesa Verde -->
+        <section class="mb-40">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                <div class="w-full md:w-1/2">
+                    <div class="flex items-center space-x-2 text-accent mb-4 uppercase tracking-widest font-bold text-sm">
+                        <span>No. 02</span>
+                        <span class="w-10 h-[1px] bg-accent/50"></span>
+                        <span>Ancient Culture</span>
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-8 font-display">梅薩維德國家公園 <br><span class="text-slate-400 text-2xl font-normal block mt-2">Mesa Verde: 走進懸崖裡的時光機</span></h2>
+                    
+                    <div class="space-y-6">
+                        <p class="text-slate-300 leading-relaxed italic border-l-4 border-accent pl-6 py-2 bg-accent/5">
+                            這裡的明星不是大樹或流水，而是「公寓」。
+                        </p>
+                        <p class="text-slate-400">
+                            1906 年設立，世界文化遺產。12 至 13 世紀祖傳普韋布洛人（Ancestral Puebloans）在垂直懸崖凹處興建的精巧石頭建築，是人類生存韌性的極致展現。
+                        </p>
+                        <div class="flex flex-wrap gap-4 mt-8">
+                            <span class="px-4 py-2 glass-card text-xs font-bold text-accent">文化主權</span>
+                            <span class="px-4 py-2 glass-card text-xs font-bold text-accent">3D 雷射掃描</span>
+                            <span class="px-4 py-2 glass-card text-xs font-bold text-accent">世界遺產</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 glass-card aspect-square overflow-hidden relative group">
+                    <div class="absolute inset-0 bg-slate-900/40 z-10"></div>
+                    <img src="https://opal.google/board/blobs/c3804dae-0907-468b-a745-82cee5a7f499" alt="Mesa Verde" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center z-20">
+                         <div class="text-center p-6 border border-white/20 glass-card mx-10">
+                            <span class="block text-accent font-bold mb-2">未來的它</span>
+                            <p class="text-sm">數字化成為救星。園方運用 3D 技術存檔，作為與歷史賽跑的最後防線。</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Park 3: Great Sand Dunes (Split Layout) -->
+        <section class="mb-40 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="order-2 lg:order-1">
+                <div class="flex items-center space-x-2 text-accent mb-4 uppercase tracking-widest font-bold text-sm">
+                    <span>No. 03</span>
+                    <span class="w-10 h-[1px] bg-accent/50"></span>
+                    <span>Surreal Desert</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-6 font-display">大沙丘國家公園 <br><span class="text-slate-400 text-2xl font-normal block mt-2">Great Sand Dunes: 北美最大天然沙坑</span></h2>
+                <div class="space-y-6 text-slate-300">
+                    <p>這是一幅極度超現實的畫面：背景是巍峨雪山，前景卻是橫亙的金黃沙漠。你可以一邊滑沙，一邊在雪水形成的溪流中放電玩水。</p>
+                    <div class="p-6 glass-card border-accent/30">
+                        <h4 class="text-accent font-bold mb-2 uppercase tracking-tighter">有一點小尷尬：搶水大作戰</h4>
+                        <p class="text-sm text-slate-400">周邊農業開發對地下水的需求，威脅到維持沙丘濕度與溪流現象的水源。提醒著我們：即使是沙漠，也需要水的滋養。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="order-1 lg:order-2 grid grid-cols-2 gap-4">
+                <div class="col-span-2 h-64 glass-card overflow-hidden">
+                    <img src="https://opal.google/board/blobs/c3804dae-0907-468b-a745-82cee5a7f499" class="w-full h-full object-cover opacity-80" alt="Sand Dunes 1">
+                </div>
+                <div class="h-40 glass-card overflow-hidden">
+                    <img src="https://opal.google/board/blobs/c3804dae-0907-468b-a745-82cee5a7f499" class="w-full h-full object-cover opacity-60" alt="Sand Dunes 2">
+                </div>
+                <div class="h-40 glass-card bg-accent flex items-center justify-center p-6 text-slate-900">
+                    <div class="text-center">
+                        <span class="block text-3xl font-black">2004</span>
+                        <span class="text-xs font-bold tracking-widest uppercase">升格國家公園</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Park 4: Black Canyon -->
+        <section class="mb-40">
+            <div class="glass-card overflow-hidden">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="h-80 md:h-full bg-slate-950 flex items-center justify-center p-12 relative">
+                        <div class="absolute inset-0 opacity-30">
+                            <img src="https://opal.google/board/blobs/c3804dae-0907-468b-a745-82cee5a7f499" class="w-full h-full object-cover" alt="Black Canyon">
+                        </div>
+                        <div class="relative z-10">
+                            <div class="text-accent mb-4 font-bold tracking-widest">No. 04 — VERTICAL LIMIT</div>
+                            <h2 class="text-4xl md:text-6xl font-black mb-4 font-display italic">甘尼森黑峽谷</h2>
+                            <p class="text-slate-400 tracking-[0.2em] font-light">Deep, Mysterious, Ancient</p>
+                        </div>
+                    </div>
+                    <div class="p-8 md:p-16 space-y-8">
+                        <div>
+                            <h4 class="text-accent text-sm font-black uppercase mb-4 tracking-widest">岩石的魔界美學</h4>
+                            <p class="text-slate-300 leading-relaxed">二十億年的前寒武紀岩石冷峻地矗立著，深邃到太陽光每天只能照進谷底幾分鐘。這裡是硬核健行與攀岩者的秘境。</p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                            <div>
+                                <h5 class="text-white font-bold mb-2">水門爭端</h5>
+                                <p class="text-xs text-slate-400">當自然的水流被人類的開關控制，這座峽谷還保有多少「自然」的原味？</p>
+                            </div>
+                            <div>
+                                <h5 class="text-white font-bold mb-2">共融未來</h5>
+                                <p class="text-xs text-slate-400">園方致力於提升無障礙設施，讓不同體力的旅客都能平等的感受時光雕琢。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="py-20 border-t border-slate-800">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-5xl font-black mb-12 font-display">未來旅行的關鍵字</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="p-8 glass-card hover:bg-accent/10 transition-colors cursor-default">
+                        <div class="w-12 h-12 bg-accent/20 rounded-xl flex items-center justify-center mx-auto mb-6">
+                             <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h4 class="font-bold text-xl mb-4">氣候韌性</h4>
+                        <p class="text-sm text-slate-400">學會與乾旱和野火打持久戰，守護脆弱的生態平衡。</p>
+                    </div>
+                    <div class="p-8 glass-card hover:bg-accent/10 transition-colors cursor-default">
+                        <div class="w-12 h-12 bg-accent/20 rounded-xl flex items-center justify-center mx-auto mb-6">
+                             <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9.75 17L9 21h6l-.75-4M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        </div>
+                        <h4 class="font-bold text-xl mb-4">數位進化</h4>
+                        <p class="text-sm text-slate-400">透過 AR 與 3D 技術，我們將更深刻地理解消逝的文明歷史。</p>
+                    </div>
+                    <div class="p-8 glass-card hover:bg-accent/10 transition-colors cursor-default">
+                        <div class="w-12 h-12 bg-accent/20 rounded-xl flex items-center justify-center mx-auto mb-6">
+                             <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <h4 class="font-bold text-xl mb-4">永續玩耍</h4>
+                        <p class="text-sm text-slate-400">告別一次性塑膠，搭上綠色接駁，用更溫柔的方式聽土地說故事。</p>
+                    </div>
+                </div>
+                
+                <div class="mt-20">
+                    <p class="text-slate-400 text-lg max-w-2xl mx-auto italic">
+                        「這片土地的故事，值得我們一代又一代地，靜靜聆聽。」
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating UI Decoration -->
+    <div class="fixed bottom-10 right-10 z-50">
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="w-12 h-12 glass-card flex items-center justify-center text-accent hover:bg-accent hover:text-slate-900 transition-all shadow-2xl">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+        </button>
+    </div>
+
+    <script>
+        // Reveal elements on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
